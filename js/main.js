@@ -82,6 +82,10 @@ window.addEventListener('keydown', event => {
     }
 })
 
+window.addEventListener('click', () => {
+    jump();
+})
+
 PlayAgainBtn.addEventListener("click", function () {
     document.location.reload();
 });
